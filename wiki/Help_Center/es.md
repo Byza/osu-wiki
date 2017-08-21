@@ -102,95 +102,87 @@ Si lo único que quieres es cambiar el uso de mayúsculas y minusculas o solvent
 
 ### ¿Puedo cambiarme el nombre a otro que ya esté usado?
 
-**Yes, but only under certain circumstances.**
+**Solo en determinadas circunstancias**
 
-If a player has not logged in for at least 6 months and has no plays, their username may be reclaimed via the [osu!store player name change page](https://store.ppy.sh/store/product/32) for a standard fee associated with username changes.
+Si un jugador no ha entrado en su cuenta en los últimos seis meses y no ha jugado nunca, su nombre de usuario puede ser reclamado a través [de un cambio de nombre](https://store.ppy.sh/store/product/32) por el precio habitual.
 
-For every 500 plays an account has across all game modes, an additional year (365 days) will be added to the time before that user's name becomes available. This is to prevent people from stealing the usernames of active or recently retired players.
+Por cada 500 partidas jugadas en cualquier modo de juego, se suma un año al tiempo que debe pasar hasta que un nombre está disponible para ser reclamado. Así se evita que los jugadores veteranos retirados pierdan su nombre.
 
-### Is it possible to change my name back or revert to my old username?
+### ¿Es posible volver a mi nombre antiguo una vez me lo he cambiado?
 
-**Yes, but under certain circumstances.**
+**Solo en determinadas circunstancias**
 
-We only grant free reverts for a user's direct previous username (the one shown by hovering their name on their profile). Changes to any other previous names must be [purchased via the store](https://store.ppy.sh/store/product/32). Simply contact accounts@ppy.sh and request your namechange reverted.
+Puedes volver al nombre que tenías justo antes de cambiartelo de forma gratuita (al que aparece cuando dejas el cursor encima del nombre, en el perfil de usuario). Cambiartelo a un nombre anterior debe ser comprado [en la tienda](https://store.ppy.sh/store/product/32). Contacta con accounts@ppy.sh para el cambio de nombre gratuito.
 
-We only grant this one time per account, so please consider carefully before requesting!
+Solo lo haremos una vez, así que ¡piensa antes de cambiarte de nombre!
 
-### Can I play on a computer that another osu! user has used before?
+### Puedo jugar en un ordenador en el que otro usuario de osu! ha jugado?
 
-**Yes, absolutely. This includes shared PCs like netcafes or PC bangs.**
+**Por supuesto, incluso en ciber cafés y establecimientos similares**
 
-So long as you are playing on only your own account, you can play *osu!* anywhere.
+Mientras juegues únicamente en tu cuenta y sólo tú lo hagas, puedes jugar donde quieras.
 
-If you are playing from a public place, make sure to keep a close eye on your account security. Shared computers are often prime targets for malicious software.
+Si juegas osu! en un lugar público, ten cuidado con la seguridad de tu cuenta.
 
-### The website is telling me that I have tried to log in too many times!
+### La web me dice que he intentado hacer log in demasiadas veces
 
-**This is a temporary protection measure after repeated failures to access your account. Try logging in again after 10-20 minutes.**
+**Es una medida para proteger tu cuenta cuando se registran demasiados intentos en poco tiempo. Prueba en 10 o 20 minutos.**
 
-If this happens to you, simply wait for a while and try to log in a little later. 
+Si te ocurre, tan solo espera un rato, podrás volver a hacer log in como máximo en un par de horas.
 
-A couple of hours at the absolute maximum will clear the status for most people and allow them to log in again.
+### ¿Puedo tener una lista de todos los mapas que he jugado o descargado?
 
-### Can I get a list of all maps I've played or downloaded?
+**Si tienes una supporter tag, puedes ver todos los mapas en los que has enviado una puntuación**
 
-**You can see all maps you've played on the website.**
+Puedes verlos en el buscador de mapas, haciendo click en "Ranked(Played)". 
 
-If you have an active supporter tag, you can see all maps you have submitted a score on by going in the Beatmap section, then clicking the "Ranked (played)" filter. Alternatively, you can use [this link](https://osu.ppy.sh/p/beatmaplist?m=-1&r=7&g=0&la=0&ra=) to access the page directly.
-
-Unfortunately, we do not keep track of all maps a user has downloaded, so it is impossible to get a list of them. The closest you could be to it would be using the aforementioned filter to recover at least the maps you've played before.
+Desafortunadamente, no estarán todos los mapas que has descargado ni tampoco aquellos que hayas jugado y no estén rankeados o aprobados.
 
 ----------------------------------------------------------------------------
 
-## Client
+## Cliente
 
-### osu! freezes when I click a link or multiplayer map!
+### osu! se congela cuando hago click en un enlace o juego una partida multijugador
 
-**Make sure you are not running osu! in Windows compatibility mode, and that you also have a default web browser defined in your system settings.**
+**Asegúrate de que no estás ejecutando osu! en el modo de compatibilidad de Windows y que tienes un explorador web definido por defecto en la configuración del sistema**
 
-This issue is sometimes caused by an interaction with compatibility mode, and can also be caused by the game simply not finding a default browser to open the web page link with.
+#### ¿Cómo compruebo si osu! está siendo ejecutado en el modo de compatibilidad de Windows?
 
-#### Is your game running under Windows compatibility mode?
+Para comprobarlo, haz lo siguiente:
 
-To check or change if your game is running in compatibility mode under Windows, try the following steps:
+1. Abre la carpeta donde tienes instalado osu! y busca `osu!.exe`.
+2. Haz click derecho en `osu!.exe` y selecciona `Propiedades` del menú contextual.
+3. Elige la etiqueta `Compatibilidad` de la parte superior.
+4. Busca `Ejecutar este programa en modo de compatibilidad`en la sección `Modo de Compatibilidad`
+5. Si la opción está activada, desactívala haciendo click en la caja marcada.
+6. Si tenías el juego abierto, ciérralo y ábrelo de nuevo.
 
-1. Open your osu! installation folder and look for `osu!.exe`.
-2. Right click on `osu!.exe` and select `Properties` from the dropdown menu.
-3. Navigate to the `Compatibility` tab.
-4. Look for a checkbox titled `Run this program in compatibility mode` within a section titled `Compatibility mode`.
-5. If this checkbox is ticked, click it once more to disable the functionality.
-6. If your game is already open, close the client and reopen the game once more.
+#### ¿Cómo compruebo si tengo un explorador web definido por defecto?
 
-#### Do you have a default web browser set?
+**La inmensa mayoría de las veces, Windows tiene designado un explorador por defecto.**
 
-**Under the vast majority of all circumstances, most Windows installations will have a default web browser set.**
+Para comprobarlo, haz lo siguiente (Windows 8 y superiores).
 
-To check, try the following steps (under Windows 8 and above):
+1. Abre el menú de inicio
+2. Escribe `predeterminadas` en la barra de búsqueda
+3. Haz click en el resultado  `Configuración de aplicaciones predeterminadas`.
+4. Deslízate hacia abajo y establece un buscador web por defecto en `Explorador web`.
 
-1. Open the Start menu.
-2. Type `default` into the search bar within the Start menu.
-3. If you see a menu entry titled `Default app settings`, click it. If you do not, expand your search to include `default app settings`.
-4. Scroll down to the `Web browser` heading and check to make sure that a browser which you have installed is properly set.
+### No puedo hacer log in ni conectarme al juego
 
-### I can't login or connect to the game at all!
+**Asegúrate de que osu! tiene permitido acceder a internet a través del firewall o antivirus que tengas instalado.**
 
-**Ensure that osu! can properly access the internet through any firewall or anti-virus suites you have installed on your computer.**
+#### Permitir que osu! pueda acceder a internet a través de un firewall
 
-Here are a few ways of allowing applications to have internet access through several common anti-virus suites:
+**En la mayoría de instalaciones de Windows, el Firewall de Windows está instalado por defecto.**
 
-#### Allowing a program through Windows Firewall
-
-**On most Windows installations, Windows Firewall will be the default firewall software.**
-
-To make sure osu! can access the internet, we will need to allow it to communicate through Windows Firewall. Here's how to check and add osu! to the program's list:
-
-1. Open the Start menu.
-2. Type `allow an app` into the search bar within the Start menu.
-3. You should see a Control Panel match titled `Allow an app through Windows Firewall`. Click it.
-4. A panel with a large list of applications with two checkboxes beside them will open. Click on any application, and then hit the `o` key. The list will scroll down to all applications beginning with 'o'.
-5. Look for `osu!` or `osu!.exe`.
-6. If neither are present, click `Allow another app` at the bottom of the panel and search for your osu! installation directory, and choose `osu!.exe`.
-7. Make sure both `Private` and `Public` checkboxes are ticked. Click OK to save your settings and try again.
+1. Abre el menú de inicio
+2. Escribe `permitir una aplicación` en la barra de búsqueda.
+3. Abre el resultado `Permitir una aplicación a través del firewall de Windows`
+4. Una larga lista de aplicaciones aparecerá. Haz click en cualquiera de ellas y pulsa la tecla `o`.
+5. Busca `osu!` o `osu!.exe`.
+6. Si no las encuentras, haz click en `permitir otra aplicación` y selecciona `osu!.exe` en el directorio en el que instalaste osu!
+7. Asegúrate de que las casillas a la derecha de `osu!.exe` están marcadas.
 
 #### Allowing a program through AVG Firewall
 
