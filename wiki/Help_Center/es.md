@@ -184,91 +184,75 @@ Para comprobarlo, haz lo siguiente (Windows 8 y superiores).
 6. Si no las encuentras, haz click en `permitir otra aplicación` y selecciona `osu!.exe` en el directorio en el que instalaste osu!
 7. Asegúrate de que las casillas a la derecha de `osu!.exe` están marcadas.
 
-#### Allowing a program through AVG Firewall
+#### Permitir que un programa pueda atravesar el Firewall de AVG
 
-Please consult AVG's [official knowledgebase entry on the topic](https://support.avg.com/SupportArticleView?l=en&urlName=Allow-application-in-AVG-Firewall) for detailed instructions on how to do this.
+Consulta [el soporte oficial de AVG](https://support.avg.com/SupportArticleView?l=es&urlName=Allow-application-in-AVG-Firewall), con instrucciones detalladas para hacerlo.
 
-#### Allowing a program through Kaspersky Security Center
+#### Permitir que un programa pueda atravesar el Centro de Seguridad de Kaspersky Allowing a program through Kaspersky Security Center
 
-Please consult Kaspersky's [official help article](https://support.kaspersky.com/7834) on adding applications to the Trusted Zone.
+Consulta el [artículo oficial de ayuda de Kaspersky](https://support.kaspersky.com/7834) (en inglés).
 
-#### Allowing a program through McAfee
+#### Permitir un programa en McAfee
 
-Please consult McAffee's [official knowledgebase entry on the topic](https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS100813).
+Consulta el [soporte para particulares de McAffee](https://service.mcafee.com/webcenter/portal/cp/home/articleview?articleId=TS100813).
 
-#### I've added osu! to my firewall but I still can't connect to the game!
+#### ¡He permitido que osu! pueda pasar a través de mi firewall pero aún no puedo conectarme al juego!
 
-**We will need extra information from you to help sort this out.**
+**Necesitaremos que nos proporciones más información para resolver este problema.**
 
-If you are still having issues connecting to our game servers, please submit a support ticket by sending an e-mail to [accounts@ppy.sh](mailto:accounts@ppy.sh). The following information will help us resolve your issue quickly:
+Si aún tienes problemas para conectarte a nuestros servidores, envíanos un e-mail a [accounts@ppy.sh](mailto:accounts@ppy.sh). Añade la siguiente información para que podamos resolver tu caso más rápido:
 
-* A trace route output log from the command `tracert` for the servers `cho.ppy.sh`, `osu.ppy.sh` and `m1.ppy.sh` (see below for instructions)
-* The `network.log` file from the `Logs` folder in your osu! installation directory
+* El resultado del diagnóstico `tracert` para los servidores `cho.ppy.sh`, `osu.ppy.sh` and `m1.ppy.sh` (abajo te explicamos como hacerlo).
+* El archivo `network.log` dentro de la carpeta `logs`, dentro de la carpeta donde tienes instalado osu!.
 
-##### Running a trace route to troubleshoot connection issues
+##### Cómo hacer un diagnóstico `tracert` para resolver tus problemas de conectividad.
 
-**A trace route will help us detect exactly where the problem is between you and our servers.**
+**Esto nos permitirá saber dónde están exáctamente los problemas que no te permiten conectarte a nuestros servidores**
 
-You can perform a trace route by opening Command Prompt and running the command `tracert`.
+1. Manten pulsada la tecla `Windows` y pulsa `R`
+2. Escribe `cmd` y haz clic en `aceptar` para abrir el símbolo del sistema.
+3. Escribe `tracert cho.ppy.sh` y presiona `enter`.
+4. Puede tardar varios minutos, al terminar mostrará el mensaje `Traza completa`. Copia todo el texto que haya aparecido y pégalo en el e-mail que nos vas a enviar.
+5. Repite este proceso dos veces más, escribiendo `osu.ppy.sh` y `m1.ppy.sh` donde antes escribiste `cho.ppy.sh`. Copia y pega los resultados en el email que nos vas a enviar.
 
-To open the Command Prompt, press and hold the `Windows` key and press `R`, and then type `cmd` and click `OK`. [For more information, see this Windows knowledgebase article.](https://support.microsoft.com/en-us/kb/314868).
+### ¡Mi ordenador se reinicia mientras juego!
 
-You can then type the trace route command into the console. For example, the command `tracert cho.ppy.sh` will track how your computer connects to the game server over the internet. Tracing routes takes a little time, sometimes upwards of a minute or more depending on your connection.
+**La mayoría de las veces, esto está causado por el sobrecalentamiento de alguno de tus componentes, habitualmente tu CPU o tarjeta gráfica**
 
-We will need the results from a trace route for command for the following servers: `cho.ppy.sh`, `osu.ppy,sh` and `m1.ppy.sh`.
+Para saber qué está causando el problema, te recomendamos que monitorees la temperatura de tu CPU y tu tarjeta gráfica mientras juegas osu!. Una buena opción es usar [Piriform Speccy](https://www.piriform.com/speccy).
 
-To copy the results of the command, simply click and drag from the bottom of the output all the way to the top so that the information turns white, then right click to instantly copy it to your clipboard.
+Si notas que alguno de tus componentes supera valores de 90C o 194F, tu ordenador está demasiado caliente y se apagará cuando supere un determinado umbral de temperatura.
 
-### My PC reboots while playing osu!
+#### ¿Cómo puedo hacer que osu! no sobrecaliente mi ordenador?
 
-**Most of the time, this is due to overheating of one or more of your computer's components, usually your graphics card or CPU.**
+**La forma más sencilla es cambiar el límite de FPS en las opciones de juego**
 
-To figure out what is causing this, we recommend you use a GPU/CPU temperature monitor and keep an eye on it as you play osu! in the background. A good choice of program to use for this would be [Piriform Speccy](https://www.piriform.com/speccy).
+1. En la pantalla principal del juego, abre el menú `Options` o pulsa `Ctrl`+`O`.
+2. Escribe `límite` en la barra de búsqueda.
+3. El primer resultado debe ser `Límite de FPS`
 
-If you notice either your GPU or CPU temperature exceeding values of 90C or 194F, your computer is running very hot and dangerously close to most automatic shutdown thresholds.
+`Sincr. vertical` hará que la tasa de refresco o FPS del juego sea igual a la de tu pantalla principal, mientras que `120fps` y `240fps` multiplicaran por dos y por cuatro respectivamente la tasa de refresco habitual. Cuanto menor sea la tasa de refresco, menos se exigirá a tus componentes. Si tienes problemas de sobrecalentamiento, recomendamos que uses `Sincr. vertical`.
 
-#### How can I make osu! run cooler if my computer is overheating?
+#### Mi ordenador no se sobrecalienta, pero aun así, se reinicia o apaga cuando juego a osu!.
 
-**The easiest way is to change your frame limiter settings.**
+**La causa más habitual son problemas con la tarjeta de sonido, seguidos de problemas con otros periféricos de tu ordenador**
 
-To check what your frame limiter is set to, follow these steps:
+Las tarjetas de sonido antiguas o software no actualizado puede provocar problemas con osu!, pero esto no es un problema para la mayoría de la gente. Prueba actualizando los drivers de tu tarjeta de sonido o de tu placa base (las placas base modernas llevan incluídas tarjetas de sonido).
 
-1. Open *osu!*.
-2. Enter the `Options` menu or hit `Control` + `O` by default.
-3. Type `frame` into the quick-search to bring up the frame limiter options.
+También puedes probar quitando algunos de los periféricos que tengas conectados por USB a tu ordenador, sobre todo si están relacionados con el sonido. Los cascos o auriculares o los puertos a los que están conectados pueden provocar problemas si están en mal estado.
 
-If your frame limiter is set to Unlimited, you may notice a significant improvement by changing it to one of the other three options.
+#### ¡Sigue pasando aún habiendo probado todo lo anterior!
 
-`VSync` will run the game at a refresh rate equal to that of your main monitor, whilst `120fps` and `240fps` will run the game at 2x and 4x the average refresh rate.
+Si nada de esto ayuda, envía un e-mail a [accounts@ppy.sh](mailto:accounts@ppy.sh) con más información sobre tu problema particular, incluyendo las especificaciones técnicas de tu ordenador, el modelo y cualquier otra cosa que creas que pueda ser de ayuda para saber cuál es la causa de tu problema.
 
-We recommend using `VSync` in situations where heat is an issue.
+### He cambiado la configuración de osu! y ahora no puedo iniciarlo o se congela la pantalla.
 
-You may also wish to look into utilities that allow you to control the speed of your CPU and GPU fans manually.
+**Restaurar la configuración por defecto resolverá la gran mayoría de estos problemas.**
 
-#### My computer isn't overheating, but the game still causes my computer to reboot!
-
-**The most common cause of forced restarts after overheating issues is sound card problems, followed by malfunctioning peripherals attached to your computer.**
-
-Old sound card drivers or software can cause problems with osu!, but this is not an issue for most people. Try updating your sound card or motherboard drivers.
-
-You may also wish to try removing some of the peripherals attached via USB to your computer, especially if they interact with sound in any way. Headphones or USB sound cards can sometimes cause problems if they or the port they are in begins malfunctioning.
-
-#### It's still happening!
-
-If none of this helps, please send in a support ticket to [accounts@ppy.sh](mailto:accounts@ppy.sh) with more information on the issue - including your computer's technical specifications, model (where appropriate) and any other information you think may help us discern the cause of your problem.
-
-### I have changed my settings, and now I can't start osu! or it freezes.
-
-**Resetting osu! back to its default settings will fix this in most cases.**
-
-Follow these steps to restore osu! to its default settings:
-
-1. Hold down the `Shift` key on your keyboard.
-2. While holding `Shift`, double click the osu! icon on your desktop.
-3. Continue holding `Shift` until you see the osu! recovery dialog prompt.
-4. When the `osu! configuration` dialog opens, click the `reset settings` button.
-5. If you still aren't having any luck, open the dialog again and click `repair osu!`.
-
+1. Manten la tecla `Shift` y haz doble clic en el icono de osu! en tu escritorio o en la carpeta de instalación de osu!.
+2. Sigue manteniendo `Shift` pulsada hasta que aparezca un recuadro con opciones.
+3. Haz clic en la opción `reset settings`.
+4. Si el problema persiste, repite el proceso pero elige la opción `repair osu!` en lugar de `reset settings`.
 
 ### I can't hold more than a few keys at once while playing osu!mania.
 
