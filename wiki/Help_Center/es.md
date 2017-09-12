@@ -254,31 +254,29 @@ Si nada de esto ayuda, envía un e-mail a [accounts@ppy.sh](mailto:accounts@ppy.
 3. Haz clic en la opción `reset settings`.
 4. Si el problema persiste, repite el proceso pero elige la opción `repair osu!` en lugar de `reset settings`.
 
-### I can't hold more than a few keys at once while playing osu!mania.
+### No puedo mantener pulsadas demasiadas teclas en osu!mania
 
-**This is due to a hardware issue common to most keyboards called *ghosting*.**
+**Esto se debe a un problema común en los teclados, denominado _Ghosting_**
 
-Ghosting is a somewhat complex topic, but essentially boils down to issues with the way your keyboard is made that prevent it from sending more than a few keys down at once from certain places on the board.
+El Ghosting es un tema complejo, pero esencialmente es un problema causado por como está hecho tu teclado y que te impide pulsar muchas teclas al mismo tiempo.
 
-Most newer keyboards will allow up to **6** keys to be held down at once, albeit in random combinations.
+Los teclados más actuales permiten hasta **6** teclas pulsadas al mismo tiempo.
 
-You can test your keyboard's ghosting limits by using [Microsoft's Anti-Ghosting utility](http://www.microsoft.com/appliedsciences/content/projects/AntiGhostingExplained.aspx).
+Puedes comprobar los límites de tu teclado usando [la utilidad anti-ghosting de Microsoft](http://www.microsoft.com/appliedsciences/content/projects/AntiGhostingExplained.aspx).
 
-While the Ranking Criteria for osu!mania tries to alleviate the issue of ghosting by not allowing more than 6 notes to be active at any one time, you may encounter this issue if your keyboard is older.
+Aunque los criterios de rankeo de osu!mania no permiten más de 6 teclas pulsadas al mismo tiempo, aún puedes encontrar problemas si tu teclado es antiguo.
 
-The only true solution is to purchase a keyboard that can support more concurrent keypresses, in that case. You may wish to look for a feature known as *n-key rollover* (or *NKRO*). NKRO keyboards do not have issues with ghosting for the most part, but are usually expensive.
+La solución definitiva es adquirir un teclado que te permita pulsar más teclas al mismo tiempo. Puedes buscar teclados anti-ghosting, también conocidos como *n-key rollover* o NKRO, aunque son bastante caros.
 
-### My cursor goes crazy whenever I try to play osu!
+### El cursor del ratón se vuelve loco cuando juego a osu!
 
-**The most common cause of this is having your in-game mouse sensitivity set too high.**
+**Suele ocurrir cuando tienes la sensibilidad del ratón demasiado alta**
 
-Jumpy, erratic movement is a prime example of this, particularly if you are using a tablet.
+Establecer la sensibilidad a 1.0x en las opciones dentro del juego resolverá este problema en la mayoría de casos. Recomendamos que uses la opción *puntero directo* en las opciones del juego y que uses los drivers de tu ratón o tablet para cambiar la sensibilidad.
 
-Setting the in-game sensitivity to 1.0x (which is default) will fix this in most cases, but may leave your cursor feeling sluggish. We suggest enabling *raw input* in the game options and using the drivers for your peripheral of choice to alter sensitivity.
+También recomendamos que ajustes el *DPI* de tu ratón, si es que usas uno. Un DPI más alto te permite mover el cursor de forma más precisa.
 
-You may also wish to adjust the *DPI* setting of your mouse, if you are using one. Higher DPI settings provide more accurate positioning to the game client and may smooth out any jitters.
-
-We also suggest ensuring your peripherals are clean and free from dirt or debris. A hair or bit of dust in front of a mouse's optical sensor can do very strange things to the way a cursor moves.
+Asegúrate de que tu ratón está limpio, un pelo o mota de polvo en el sensor de tu ratón puede hacer que se comporte de forma extraña.
 
 #### What is raw input, and how do I turn it on?
 
